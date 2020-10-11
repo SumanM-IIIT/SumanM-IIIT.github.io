@@ -1,0 +1,153 @@
+html {
+	background: linear-gradient(to right, #033f63, black);
+}
+body {
+	margin: 3% 15% 5% 15%;
+}
+
+.details {
+	text-align: left;
+	word-wrap: break-word;
+}
+.cn {
+	float: right;
+}
+a {
+	text-decoration: none;
+}
+.innerDiv3 {
+	float: right;
+	width: 30%;
+}
+
+.div3 table {
+	width: 70%;
+}
+.div3.table_div {
+	float: left;
+}
+th td {
+	word-wrap: break-word;
+}
+
+.connect_img {
+	border-radius: 50%;
+}	
+.connect_img:hover {
+	transform: scale(1.2);
+}
+
+.heading1 {
+	font-size: 35px;
+	color: white;
+}
+.div3 {
+	padding: 3%;
+	background-color: #e9ebe2;
+}
+.img1 {
+	float:left;
+	padding: 1%;
+	width: 100%;
+	max-width: 250px;
+	height: auto;
+	border-radius: 50%;
+}
+h2 {
+	font-family: arial;
+}
+p {
+	font-family: calibri; 
+	text-align: justify;
+	font-size: 18px;
+}
+nav { 
+background: linear-gradient(#a62c2b, black); 
+}
+
+nav ul {
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  position: relative;
+}
+
+nav ul li a {
+  color: #fff;
+  display: block;
+  font-size: 14px;
+  padding: 15px;
+  transition: 0.3s linear;
+  text-decoration: none;
+}
+
+
+nav ul li:hover { 
+background: linear-gradient(black, #a62c2b); 
+}
+
+nav ul li ul {
+  border-bottom: 5px solid #a62c2b;
+  display: none;
+  position: absolute;
+  width: 250px;
+}
+
+nav ul li ul li {
+  border-top: 1px solid #a62c2b;
+  display: block;
+}
+
+nav ul li ul li:first-child {
+	border-top: none;
+}
+
+nav ul li ul li a {
+  background: #373737;
+  display: block;
+  text-align: center;
+  padding: 10px 14px;
+  text-decoration: none;
+}
+
+nav ul li ul li a:hover {
+	background: linear-gradient(black, #a62c2b);
+}
+
+div.gallery {
+  margin: 1%;
+  border: 1px solid #ccc;
+  float: left;
+  width: 30%;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+  transform: scale(1.1);
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.my_canvas_div {
+	margin: auto;
+}
+/*canvas {
+	padding: 0;
+    margin: auto;
+    display: block;
+	float: center;
+}*/
+.my_canvas_div {
+	padding: 1%;
+	float: left;
+}
+.counter {
+	float: right;
+}
